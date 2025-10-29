@@ -78,3 +78,4 @@ def update_graph(year):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
