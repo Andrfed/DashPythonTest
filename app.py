@@ -77,5 +77,6 @@ def update_graph(year):
     return px.pie(pd.concat([dff, pd.Series(data=list(dff.index), index=dff.index, name='continent')], axis=1), values='pop', names='continent', title='Круговая диаграмма по популяции на континентах')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
+
 
